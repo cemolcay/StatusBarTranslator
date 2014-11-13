@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26355A21A14AA7200E97788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26355A11A14AA7200E97788 /* AppDelegate.swift */; };
+		B26355A41A14AA7200E97788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26355A31A14AA7200E97788 /* Images.xcassets */; };
+		B26355A71A14AA7200E97788 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26355A51A14AA7200E97788 /* MainMenu.xib */; };
+		B26355B31A14AA7200E97788 /* StatusBarTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26355B21A14AA7200E97788 /* StatusBarTranslatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B26355AD1A14AA7200E97788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26355941A14AA7200E97788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B263559B1A14AA7200E97788;
+			remoteInfo = StatusBarTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B263559C1A14AA7200E97788 /* StatusBarTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26355A01A14AA7200E97788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26355A11A14AA7200E97788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26355A31A14AA7200E97788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B26355A61A14AA7200E97788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B26355AC1A14AA7200E97788 /* StatusBarTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26355B11A14AA7200E97788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26355B21A14AA7200E97788 /* StatusBarTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarTranslatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26355991A14AA7200E97788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26355A91A14AA7200E97788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26355931A14AA7200E97788 = {
+			isa = PBXGroup;
+			children = (
+				B263559E1A14AA7200E97788 /* StatusBarTranslator */,
+				B26355AF1A14AA7200E97788 /* StatusBarTranslatorTests */,
+				B263559D1A14AA7200E97788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B263559D1A14AA7200E97788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B263559C1A14AA7200E97788 /* StatusBarTranslator.app */,
+				B26355AC1A14AA7200E97788 /* StatusBarTranslatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B263559E1A14AA7200E97788 /* StatusBarTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				B26355A11A14AA7200E97788 /* AppDelegate.swift */,
+				B26355A31A14AA7200E97788 /* Images.xcassets */,
+				B26355A51A14AA7200E97788 /* MainMenu.xib */,
+				B263559F1A14AA7200E97788 /* Supporting Files */,
+			);
+			path = StatusBarTranslator;
+			sourceTree = "<group>";
+		};
+		B263559F1A14AA7200E97788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26355A01A14AA7200E97788 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B26355AF1A14AA7200E97788 /* StatusBarTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B26355B21A14AA7200E97788 /* StatusBarTranslatorTests.swift */,
+				B26355B01A14AA7200E97788 /* Supporting Files */,
+			);
+			path = StatusBarTranslatorTests;
+			sourceTree = "<group>";
+		};
+		B26355B01A14AA7200E97788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26355B11A14AA7200E97788 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B263559B1A14AA7200E97788 /* StatusBarTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26355B61A14AA7200E97788 /* Build configuration list for PBXNativeTarget "StatusBarTranslator" */;
+			buildPhases = (
+				B26355981A14AA7200E97788 /* Sources */,
+				B26355991A14AA7200E97788 /* Frameworks */,
+				B263559A1A14AA7200E97788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarTranslator;
+			productName = StatusBarTranslator;
+			productReference = B263559C1A14AA7200E97788 /* StatusBarTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B26355AB1A14AA7200E97788 /* StatusBarTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26355B91A14AA7200E97788 /* Build configuration list for PBXNativeTarget "StatusBarTranslatorTests" */;
+			buildPhases = (
+				B26355A81A14AA7200E97788 /* Sources */,
+				B26355A91A14AA7200E97788 /* Frameworks */,
+				B26355AA1A14AA7200E97788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26355AE1A14AA7200E97788 /* PBXTargetDependency */,
+			);
+			name = StatusBarTranslatorTests;
+			productName = StatusBarTranslatorTests;
+			productReference = B26355AC1A14AA7200E97788 /* StatusBarTranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26355941A14AA7200E97788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cem Olcay";
+				TargetAttributes = {
+					B263559B1A14AA7200E97788 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B26355AB1A14AA7200E97788 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B263559B1A14AA7200E97788;
+					};
+				};
+			};
+			buildConfigurationList = B26355971A14AA7200E97788 /* Build configuration list for PBXProject "StatusBarTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26355931A14AA7200E97788;
+			productRefGroup = B263559D1A14AA7200E97788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B263559B1A14AA7200E97788 /* StatusBarTranslator */,
+				B26355AB1A14AA7200E97788 /* StatusBarTranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B263559A1A14AA7200E97788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26355A41A14AA7200E97788 /* Images.xcassets in Resources */,
+				B26355A71A14AA7200E97788 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26355AA1A14AA7200E97788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26355981A14AA7200E97788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26355A21A14AA7200E97788 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26355A81A14AA7200E97788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26355B31A14AA7200E97788 /* StatusBarTranslatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26355AE1A14AA7200E97788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B263559B1A14AA7200E97788 /* StatusBarTranslator */;
+			targetProxy = B26355AD1A14AA7200E97788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B26355A51A14AA7200E97788 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26355A61A14AA7200E97788 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26355B41A14AA7200E97788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26355B51A14AA7200E97788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B26355B71A14AA7200E97788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B26355B81A14AA7200E97788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B26355BA1A14AA7200E97788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StatusBarTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarTranslator.app/Contents/MacOS/StatusBarTranslator";
+			};
+			name = Debug;
+		};
+		B26355BB1A14AA7200E97788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StatusBarTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarTranslator.app/Contents/MacOS/StatusBarTranslator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26355971A14AA7200E97788 /* Build configuration list for PBXProject "StatusBarTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26355B41A14AA7200E97788 /* Debug */,
+				B26355B51A14AA7200E97788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26355B61A14AA7200E97788 /* Build configuration list for PBXNativeTarget "StatusBarTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26355B71A14AA7200E97788 /* Debug */,
+				B26355B81A14AA7200E97788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B26355B91A14AA7200E97788 /* Build configuration list for PBXNativeTarget "StatusBarTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26355BA1A14AA7200E97788 /* Debug */,
+				B26355BB1A14AA7200E97788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26355941A14AA7200E97788 /* Project object */;
+}
