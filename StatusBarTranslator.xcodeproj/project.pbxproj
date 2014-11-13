@@ -75,10 +75,10 @@
 		B2583E131A14B6AB007FD75C /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B2583E141A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift */,
-				B26355BC1A14AA9C00E97788 /* IconView.swift */,
 				B2583E0E1A14B689007FD75C /* Alamofire.swift */,
 				B2583E0F1A14B689007FD75C /* SwiftyJSON.swift */,
+				B2583E141A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift */,
+				B26355BC1A14AA9C00E97788 /* IconView.swift */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
