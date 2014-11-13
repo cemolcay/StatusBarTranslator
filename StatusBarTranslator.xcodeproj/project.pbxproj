@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2583E0D1A14B02B007FD75C /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2583E0C1A14B02B007FD75C /* TranslatorView.swift */; };
+		B2583E101A14B689007FD75C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2583E0E1A14B689007FD75C /* Alamofire.swift */; };
+		B2583E111A14B689007FD75C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2583E0F1A14B689007FD75C /* SwiftyJSON.swift */; };
+		B2583E151A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2583E141A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift */; };
 		B26355A21A14AA7200E97788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26355A11A14AA7200E97788 /* AppDelegate.swift */; };
 		B26355A41A14AA7200E97788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26355A31A14AA7200E97788 /* Images.xcassets */; };
-		B26355A71A14AA7200E97788 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26355A51A14AA7200E97788 /* MainMenu.xib */; };
 		B26355B31A14AA7200E97788 /* StatusBarTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26355B21A14AA7200E97788 /* StatusBarTranslatorTests.swift */; };
+		B26355BD1A14AA9C00E97788 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26355BC1A14AA9C00E97788 /* IconView.swift */; };
+		B26355C01A14AC4E00E97788 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26355BE1A14AC4E00E97788 /* MainMenu.xib */; };
+		B26355C21A14AC8800E97788 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26355C11A14AC8800E97788 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,14 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2583E0C1A14B02B007FD75C /* TranslatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+		B2583E0E1A14B689007FD75C /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		B2583E0F1A14B689007FD75C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B2583E141A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
 		B263559C1A14AA7200E97788 /* StatusBarTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26355A01A14AA7200E97788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B26355A11A14AA7200E97788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B26355A31A14AA7200E97788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B26355A61A14AA7200E97788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B26355AC1A14AA7200E97788 /* StatusBarTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26355B11A14AA7200E97788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B26355B21A14AA7200E97788 /* StatusBarTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarTranslatorTests.swift; sourceTree = "<group>"; };
+		B26355BC1A14AA9C00E97788 /* IconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		B26355BF1A14AC4E00E97788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B26355C11A14AC8800E97788 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2583E121A14B6A1007FD75C /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				B26355C11A14AC8800E97788 /* icon@2x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		B2583E131A14B6AB007FD75C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B2583E141A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift */,
+				B26355BC1A14AA9C00E97788 /* IconView.swift */,
+				B2583E0E1A14B689007FD75C /* Alamofire.swift */,
+				B2583E0F1A14B689007FD75C /* SwiftyJSON.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		B26355931A14AA7200E97788 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +104,10 @@
 		B263559E1A14AA7200E97788 /* StatusBarTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				B2583E131A14B6AB007FD75C /* Libraries */,
+				B2583E121A14B6A1007FD75C /* Icon */,
 				B26355A11A14AA7200E97788 /* AppDelegate.swift */,
-				B26355A31A14AA7200E97788 /* Images.xcassets */,
-				B26355A51A14AA7200E97788 /* MainMenu.xib */,
+				B2583E0C1A14B02B007FD75C /* TranslatorView.swift */,
 				B263559F1A14AA7200E97788 /* Supporting Files */,
 			);
 			path = StatusBarTranslator;
@@ -84,6 +116,8 @@
 		B263559F1A14AA7200E97788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B26355A31A14AA7200E97788 /* Images.xcassets */,
+				B26355BE1A14AC4E00E97788 /* MainMenu.xib */,
 				B26355A01A14AA7200E97788 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -187,7 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26355A41A14AA7200E97788 /* Images.xcassets in Resources */,
-				B26355A71A14AA7200E97788 /* MainMenu.xib in Resources */,
+				B26355C01A14AC4E00E97788 /* MainMenu.xib in Resources */,
+				B26355C21A14AC8800E97788 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26355A21A14AA7200E97788 /* AppDelegate.swift in Sources */,
+				B2583E0D1A14B02B007FD75C /* TranslatorView.swift in Sources */,
+				B2583E101A14B689007FD75C /* Alamofire.swift in Sources */,
+				B2583E111A14B689007FD75C /* SwiftyJSON.swift in Sources */,
+				B2583E151A14B9B9007FD75C /* Alamofire-SwiftyJSON.swift in Sources */,
+				B26355BD1A14AA9C00E97788 /* IconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +268,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B26355A51A14AA7200E97788 /* MainMenu.xib */ = {
+		B26355BE1A14AC4E00E97788 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B26355A61A14AA7200E97788 /* Base */,
+				B26355BF1A14AC4E00E97788 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -393,6 +433,7 @@
 				B26355B81A14AA7200E97788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B26355B91A14AA7200E97788 /* Build configuration list for PBXNativeTarget "StatusBarTranslatorTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +442,7 @@
 				B26355BB1A14AA7200E97788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
