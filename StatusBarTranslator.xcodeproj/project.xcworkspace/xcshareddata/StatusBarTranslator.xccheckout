@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4BE3B27D-C182-47E7-A787-558DA8A590D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StatusBarTranslator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>09759FFC86D4E3C10107545AA2F580160079F628</key>
+		<string>https://github.com/cemolcay/StatusBarTranslator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StatusBarTranslator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>09759FFC86D4E3C10107545AA2F580160079F628</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cemolcay/StatusBarTranslator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>09759FFC86D4E3C10107545AA2F580160079F628</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09759FFC86D4E3C10107545AA2F580160079F628</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StatusBarTranslator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
